@@ -137,7 +137,7 @@ a:hover{text-decoration:underline;}
     display:table-row;
     background: #50af6f;
 }
-.wrapper-holder.grey{background: #28292b;}
+.wrapper-holder.grey{background: #f9f9f9;}
 #header {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -156,13 +156,13 @@ a:hover{text-decoration:underline;}
 }
 .logo {
 	text-align:center;
-	font-family: 'novecentosanswide';
+	/*font-family: 'novecentosanswide';*/
 	font-weight:bold;
 	color: #fff;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
-	text-transform: uppercase;
+	text-transform: none;
 	margin: 85px 0 23px;
 }
 #nav {
@@ -201,8 +201,8 @@ transition: all 0.5s ease-in-out;
 h2.slogan{
 	display: block;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'novecento_sans_widebook';
+	text-transform: none ;
+	/*font-family: 'novecento_sans_widebook';*/
 	font-size: 30px;
 	line-height: 32px;
 	color: #aeecc2;
@@ -221,46 +221,49 @@ h2.slogan{
 #main h2{
 	display: block;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'novecento_sans_widebook';
+	text-transform: none;
+	/*font-family: 'novecento_sans_widebook';*/
 	font-size: 30px;
 	line-height: 32px;
-	color: #fff;
-	margin: 0 0 81px;
+	color: #111111;
+	margin: 0 0 180px 100px;
 }
 .box_timeline_holder{
-	background: url(../images/bg_timeline_l.png) no-repeat 0 70px;
+	/*background: url(../images/bg_timeline_l.png) no-repeat 0 70px;*/
 	position: relative;
 	padding: 0 0 0 100px;
 	overflow: hidden;
 }
 .box_timeline{
-	background: url(../images/bg_timeline_r.png) no-repeat 100% 70px;
+	/*background: url(../images/bg_timeline_r.png) no-repeat 100% 70px;*/
 	position: relative;
-	padding: 0 100px 0 0;
+	padding: 0 10px 0 0;
 	overflow: hidden;
 }
 .box_timeline ul{
 	position: relative;
-	background: url(../images/bg_ul.gif) repeat-x 0 76px;
+	/*background: url(../images/bg_ul.gif) repeat-x 0 76px;*/
 	overflow: hidden;
 }
 .box_timeline ul li{
+	background: #ffffff 0 76px;
 	float:left;
-	width: 170px;
-	margin: 0 0 0 30px;
-	background: url(../images/bg_ul.gif) repeat-x 0 76px;
+	width: 300px;
+	height: 500px;
+	margin: 0 0 0 35px;
+	/*background: url(../images/bg_ul.gif) repeat-x 0 76px;*/
 }
 .box_timeline ul li:first-child{margin: 0;}
 .box_timeline ul li .date{
-	background: url(../images/bg_timeline_c.png) no-repeat 50% 0;
+	/*background: url(../images/bg_timeline_c.png) no-repeat 50% 0;*/
+	/*background-size:60% 120%;*/
 	height: 86px;
 	width: 170px;
 	margin: 0 auto 12px;
 	overflow: hidden;
 }
 .box_timeline ul li .date span{
-	font-family: 'novecentosanswide';
+	/*font-family: 'novecentosanswide';*/
 	font-weight:bold;
 	color: #fff;
 	font-size: 14px;
@@ -270,22 +273,25 @@ h2.slogan{
 	padding: 15px 0 0 0;
 }
 .box_timeline h3{
-	font-family: 'novecento_sans_widemedium';
+	/*font-family: 'novecento_sans_widemedium';*/
 	color: #50af6f;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 26px;
+	line-height: 26px;
 	display: block;
+	width: 110%;
 	text-align: center;
-	margin: 0 0 10px;
+	margin: 0 0 20px;
 }
 .box_timeline p{
+
 	font-family: Arial, Helvetica, sans-serif;
 	color: #a4a7ac;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 26px;
+	line-height: 26px;
 	display: block;
 	text-align: center;
-	margin: 0 0 10px;
+    /*width: 110%;*/
+	margin: 0 0 200px;
 }
 /*skills*/
 #main .skills_holder h2{text-align: left;margin: 0 0 40px;}
@@ -319,12 +325,14 @@ h2.slogan{
 }
 .progress li span{
 	background: #50af6f;
-	color: #fff;
-	text-transform:uppercase;
+
+	/*text-transform:uppercase;*/
 	display: block;
-	font-family: 'novecentosanswide';
+	/*font-family: 'novecentosanswide';*/
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 28px;
+	color: #ffffff;
+	text-align: center;
 	padding: 0 0 0 20px;
 }
 .progress li span.photoshop{width: 100%;}
