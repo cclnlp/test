@@ -135,7 +135,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #50af6f;
+    background: #6e54da;
 }
 .wrapper-holder.grey{background: #f9f9f9;}
 #header {
@@ -180,12 +180,12 @@ a:hover{text-decoration:underline;}
 }
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
-	color: #aeecc2;
+	color: #eae9ec;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #62bb7f;
+	border-bottom: 4px solid #fcfdfd;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
@@ -205,9 +205,9 @@ h2.slogan{
 	/*font-family: 'novecento_sans_widebook';*/
 	font-size: 30px;
 	line-height: 32px;
-	color: #aeecc2;
+	color: #eaece7;
 	padding: 34px 0 50px 0;
-	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
+	/*background: url(../images/slogan_bg.gif) no-repeat 50% 0;*/
 }
 /*main
  */
@@ -216,7 +216,7 @@ h2.slogan{
 	margin: 0 auto;
 	padding: 93px 0 76px;
 	position:relative;
-	background: url(../images/icon_header.png) no-repeat 50% 0;
+	/*background: url(../images/icon_header.png) no-repeat 50% 0;*/
 }
 #main h2{
 	display: block;
@@ -226,7 +226,7 @@ h2.slogan{
 	font-size: 30px;
 	line-height: 32px;
 	color: #111111;
-	margin: 0 0 180px 100px;
+	margin: 0 0 100px;
 }
 .box_timeline_holder{
 	/*background: url(../images/bg_timeline_l.png) no-repeat 0 70px;*/
@@ -249,7 +249,7 @@ h2.slogan{
 	background: #ffffff 0 76px;
 	float:left;
 	width: 300px;
-	height: 500px;
+	height: 300px;
 	margin: 0 0 0 35px;
 	/*background: url(../images/bg_ul.gif) repeat-x 0 76px;*/
 }
@@ -274,24 +274,24 @@ h2.slogan{
 }
 .box_timeline h3{
 	/*font-family: 'novecento_sans_widemedium';*/
-	color: #50af6f;
+	color: #0b080a;
 	font-size: 26px;
 	line-height: 26px;
 	display: block;
 	width: 110%;
 	text-align: center;
-	margin: 0 0 20px;
+	margin: 20px 0 20px;
 }
 .box_timeline p{
 
 	font-family: Arial, Helvetica, sans-serif;
-	color: #a4a7ac;
-	font-size: 26px;
+	color: #111111;
+	font-size: 16px;
 	line-height: 26px;
 	display: block;
-	text-align: center;
+	/*text-align: center;*/
     /*width: 110%;*/
-	margin: 0 0 200px;
+	margin: 0 20px 200px 20px;
 }
 /*skills*/
 #main .skills_holder h2{text-align: left;margin: 0 0 40px;}
@@ -324,7 +324,7 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #50af6f;
+	background: #6e54d9;
 
 	/*text-transform:uppercase;*/
 	display: block;
@@ -634,7 +634,7 @@ transition: all 0.5s ease-in-out;
 
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#main {
-		background-image: url(../images/icon_header@x2.png);
+		/*background-image: url(../images/icon_header@x2.png);*/
 		background-size:114px 46px;
 	}
 	.menu_trigger{
@@ -642,7 +642,7 @@ transition: all 0.5s ease-in-out;
 		background-size:31px 30px;
 	}
 	.slogan{
-		background-image: url(../images/slogan_bg@x2.gif);
+		/*background-image: url(../images/slogan_bg@x2.gif);*/
 		background-size:80px 4px;
 	}
 	.box_timeline_holder{
